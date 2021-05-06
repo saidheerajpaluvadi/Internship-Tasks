@@ -1,0 +1,12 @@
+Web Crawling
+	For each page, access the first wiki link in page(ignoring meta links, links between parenthesis and the ones in italic) and crawl that page .
+
+Jsoup Crawler is used to crawl the web pages.
+
+CrawlWiki:
+-> It is used to store the start word and end word and the length to reach the end word.
+
+CrawlWikiService:
+-> It is used to crawl the wikipedia pages.
+-> Caliculate perecentage of pages reached the word philosophy.
+-> Caliculate the average length to reach the philosophy.
