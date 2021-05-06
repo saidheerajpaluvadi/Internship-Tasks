@@ -1,0 +1,40 @@
+Fruit Store
+----------------------------
+Fruit store helps the user to buy the fruits from the store. 
+
+
+Various classes used in the Fruit store application are:
+1. Main
+2. LoginService
+3. FruitShopService
+4. BillingService
+5. InputFromConsole
+6. Fruit
+7. User
+
+Enum - FruitQuality -> BEST,MODERATE,LOW
+
+1. Main:
+-> It is start of execution. 
+-> Displays a menu of options.
+
+2. LoginService:
+-> It will intailize few users intially.
+-> Take user credentials using the InputFromConsole and validate the user Credentials.
+
+3. FruitShopService:
+-> FruitShopService will provide services like printing the cart, Invoice etc,
+
+4. BillingService:
+-> BillingService is used to calculate the effective amount.
+-> Effective Amount is calculated by deducting the discount and users add on points..
+
+5. InputFromConsole:
+-> InputFromConsole is a singleton class. 
+-> It will intialize the scanner class.
+
+6. Fruit:
+-> Fruit class contains all the details related to fruit like name,price, quality etc
+
+7.User
+-> User class is used to store the user details and credentials.
