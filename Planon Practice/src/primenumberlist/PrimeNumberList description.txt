@@ -1,0 +1,4 @@
+PrimeNumberList
+
+-> The prime number list extends the ArrayList class
+-> It has all the features like ArrayList but the only difference is PrimeNumberList allows only the prime numbers. 
