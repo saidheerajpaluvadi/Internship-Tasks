@@ -1,0 +1,63 @@
+Book Ride Application:
+---------------------------------
+	Book Ride Application is used by the travellers. It is kind of a car pooling app. User can offer a ride or book a ride to travel from one location to another location.  
+
+
+Various Classes in the application:
+1. Main
+2. RideService
+3. LoginService
+4. InputFromConsole
+5. BookingDetails
+6. RideDetails
+7. User 
+
+
+1. Main:
+-> Show a welcome message
+-> Asks for Login Credentials. Inputs are taken using InputFromConsole.
+-> Intialize few Users and Rides for checking purpose.
+-> After successful login display menu of options. They are Offer a ride, book a ride,About us and Exit.
+
+2. RideService:
+-> It is used to handle the rides.
+-> It performs actions like offering a ride, booking a ride, checking whether user can offer a ride.
+
+3. LoginService:
+-> It is used for user login.
+-> Verify the username and password
+
+4. InputFromConsole:
+-> To take user inputs from user via console.
+-> It uses the scanner class.
+
+5. BookingDetails:
+-> It is a model class.
+-> It contains details of bookings done by the user.
+
+6. RideDetails:
+-> It is a model class.
+-> It contains the details of a particular ride.
+-> The details like car name, car type, number of passengers etc., are stored here
+
+7. User:
+-> It is model class.
+-> It contains the details of a user like username, password, firstname, age.
+
+
+Main
+   -InputFromConsole       
+   -LoginService	      
+   -RideService
+
+
+RideService
+   -RideDetails	
+
+LoginService
+   -User	(To Validate user credentials)
+
+RideDetails
+    -User	(To know who is offering a ride)
+
+	
